@@ -1,0 +1,52 @@
+.navbar-brand img
+{
+    width: 100px;
+}
+
+#boton_verde
+{
+    color: #25a342
+}
+
+
+.carousel-item
+{ 
+    opacity: .8;
+}
+
+element.style 
+{
+    text-align: right;
+}
+
+.banner 
+{
+    background-image: url(../img/ba1.jpg);
+    background-size: cover;
+    position: relative;
+}
+.text-white 
+{
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+}
+
+.carousel-item
+{
+    opacity: .8;
+}
+
+header
+{
+    background-color: #364552;
+    color: white;
+    text-decoration:solid;
+}
+header section
+{
+    float: right;
+}
+header a:hover
+{
+    color: cornflowerblue;
+}
