@@ -86,7 +86,7 @@ function total_a_pagar()
     {
         totalValorTickets=totalValorTickets-(descuentoJunior/100*totalValorTickets);
     }
-    totalPago.innerHTML=totalValorTickets;
+    document.getElementById("precioPagar").innerText=totalValorTickets;
 }
 
 function quitarClaseError()
